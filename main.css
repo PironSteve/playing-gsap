@@ -1,0 +1,151 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.slide .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.intro {
+  background: #305a5b;
+}
+
+/* - - - - - - - -  SLIDE 1 - - - - - - - - */
+
+.slidein1 {
+  background: url(img/forest.jpg);
+  background-size: cover;
+}
+
+.slidein1 .row {
+  justify-content: center;
+}
+
+#play,
+#gsap {
+  color: #161616;
+}
+
+#with {
+  color: white;
+}
+
+.slogan {
+  font-size: 90px;
+}
+
+.parallax {
+  background: url(img/sapin.jpg);
+  background-size: cover;
+}
+
+/* - - - - - - - -  SLIDE 2 - - - - - - - - */
+
+.slidein2 {
+  background: #01151c;
+}
+
+#pictures {
+  display: flex;
+}
+
+.spinpictures {
+  width: 25%;
+  padding: 0.5%;
+}
+
+/* - - - - - - - -  SLIDE 3 - - - - - - - - */
+
+#slidein3 {
+  background-color: #020d0f;
+  text-align: center;
+}
+
+#boxbigtitle {
+  color: white;
+}
+
+#boxes {
+  display: flex;
+  margin: 0 auto;
+}
+
+.box {
+  width: 20%;
+  text-align: justify;
+  padding: 3%;
+  transform: skewY(5deg);
+}
+
+/* - - - - - - - -  SLIDE 4 - - - - - - - - */
+
+#slidein4 {
+  background-color: #1c4e59;
+}
+
+#mountain2 {
+  width: 20%;
+  margin-right: 3%;
+}
+
+#moutaintext {
+  z-index: 1;
+  font-size: 2em;
+}
+
+.worry {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.staggerline {
+  line-height: 300%;
+}
+
+/* - - - - - - - -  SLIDE 5 - - - - - - - - */
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #32757b;
+  color: white;
+  text-align: center;
+}
+
+#curtainLeft {
+  background: url("img/curtainleft.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  z-index: 3;
+}
+
+#curtainRight {
+  background: url("img/curtainright.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+}
+
+#lastText {
+  color: #01151c;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
+  position: absolute;
+  width: 100%;
+  margin: 25% auto;
+  z-index: 10;
+}
